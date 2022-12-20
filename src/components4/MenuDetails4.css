@@ -1,0 +1,19 @@
+.main{
+    width: 100%;
+    background-color: #e8e8e9;
+    color: #040f0f;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.type1, .type2, .type3, .type4, .type5, .type6{
+    font-size: 30px;
+    font-weight: bold;
+    color: #289944;
+    text-decoration: underline;
+}
+.type1Text, .type2Text, .type3Text, .type4Text, .type5Text, .type6Text{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}

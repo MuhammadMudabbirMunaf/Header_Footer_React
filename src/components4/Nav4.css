@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #040f0f;
+	--mainColorLight: #656665;
+	--secondaryColor: #e8e8e9;
+	--textColor: #289944;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+	border-bottom: 4px solid var(--textColor);
+	/* margin-top: 10rem; */
+}
+h3{
+	font-size: 50px;
+}
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+	font-size: 30px;
+}
+nav a:hover {
+	color: var(--secondaryColor);
+	font-size: 25px;
+	text-decoration: underline;
+}
+header div, nav {
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+	h3{
+		font-size: 30px;
+	}
+	nav a{
+		font-size: 20px;
+	}
+	nav a:hover{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 620px) {
+	
+	h3{
+		font-size: 25px;
+	}
+	nav a{
+		font-size: 15px;
+	}
+	nav a:hover{
+		font-size: 12px;
+	}
+}

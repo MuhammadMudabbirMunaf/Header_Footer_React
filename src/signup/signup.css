@@ -1,0 +1,27 @@
+.container3{
+    background-color: #e8e8e9;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.signupHead{
+    font-size: 40px;
+    font-weight: bold;
+    color: #289944;
+    text-align: center;
+}
+.wrapper{
+    border: 3px solid #289944;
+}
+input{
+    font-size: 18px;
+    margin-left: 30%;
+    width: 40%;
+    margin-bottom: 8px;
+}
+.text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
